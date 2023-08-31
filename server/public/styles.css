@@ -10,6 +10,7 @@ body {
 h1 {
   color: rgb(45, 93, 149);
 }
+
 h2,
 h3,
 h4,
@@ -26,25 +27,31 @@ div {
   font-family: "Quicksand", sans-serif;
   color: #444;
 }
+
 ul {
   list-style-type: none;
 }
+
 a {
   text-decoration: none;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   margin-bottom: 120px;
 }
+
 nav ul {
   display: flex;
   align-items: center;
 }
+
 nav li {
   margin-left: 20px;
 }
+
 nav li a {
   text-transform: uppercase;
   font-weight: 700;
@@ -53,19 +60,23 @@ nav li a {
   padding: 10px 16px;
   letter-spacing: 2px;
 }
+
 .loginbtn {
   border-radius: 36px;
   background: #78a1bb;
 }
+
 .btn {
   border-radius: 36px;
-  background: #ca96fe;
+  background: white;
 }
+
 form h2 {
   font-size: 2.4em;
   font-weight: 900;
   margin-bottom: 40px;
 }
+
 form {
   width: 360px;
   margin: 0 auto;
@@ -74,6 +85,7 @@ form {
   border-radius: 10px;
   background: white;
 }
+
 input {
   padding: 10px 12px;
   border-radius: 4px;
@@ -81,10 +93,12 @@ input {
   font-size: 1em;
   width: 100%;
 }
+
 label {
   display: block;
   margin: 20px 0 10px;
 }
+
 button {
   margin-top: 30px;
   border-radius: 36px;
@@ -98,30 +112,16 @@ button {
   letter-spacing: 2px;
   cursor: pointer;
 }
+
 .error {
   color: #96587d;
   margin: 10px 2px;
   font-size: 0.8em;
   font-weight: bold;
 }
-header {
-  display: flex;
-  align-items: center;
-}
-header img {
-  width: 250px;
-  margin-right: 40px;
-}
-header h2 {
-  font-size: 3em;
-  margin-bottom: 10px;
-}
-header h3 {
-  font-size: 1.6em;
-  margin-bottom: 10px;
-  margin-left: 2px;
-  color: #999;
-}
+
+
+
 header .btn {
   margin-top: 20px;
   padding: 12px 18px;

@@ -1,3 +1,42 @@
-<%- include('partials/header'); -%>
+<!DOCTYPE html>
+<html lang="en">
 
-<h1>Welcome to our Website!</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: #9bf4d5 !important;
+            margin: 0;
+            padding: 0;
+        }
+
+        .homecontainer {
+            display: flex;
+            justify-content: center;
+            height: 80vh;
+            width: 80%;
+            margin: auto;
+            background-color: #fafafa;
+            margin-top: 3.5rem;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .homecontainer h1 {
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="homecontainer">
+        <%- include('partials/header'); -%>
+    </div>
+</body>
+
+</html>

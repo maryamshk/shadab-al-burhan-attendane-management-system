@@ -2,38 +2,38 @@ import React from "react";
 import styled from "styled-components";
 
 const Welcome = () => {
-    return (
-        <Container>
-            <Header>
-                <img src="../images/logo.png"></img>
-                <h1>Marhaba Bika Burhan</h1>
-            </Header>
+  return (
+    <Container>
+      <Header>
+        <img src="../images/logo.png"></img>
+        <h1>Marhaba Bika Burhan</h1>
+      </Header>
 
-            <h3>Empowering Education and Park Management</h3>
-            <p>
-                Shabab Al Burhan is more than just a program; it is a manifestation of
-                our commitment to the Islamic way of life.
-            </p>
+      <h3>Empowering Education and Park Management</h3>
+      <p>
+        Shabab Al Burhan is more than just a program; it is a manifestation of
+        our commitment to the Islamic way of life.
+      </p>
 
-            <p>
-                We believe in the power of education and the importance of nurturing a
-                profound connection with the natural world, all in accordance with the
-                teachings of Islam.
-            </p>
+      <p>
+        We believe in the power of education and the importance of nurturing a
+        profound connection with the natural world, all in accordance with the
+        teachings of Islam.
+      </p>
 
-            <ButtonContainer>
-                <button>
-                    I am the Teacher <span>(معلم)</span>
-                </button>
-                <button>
-                    I am the Head of park <span>(رئيس الحدائق)</span>
-                </button>
-            </ButtonContainer>
+      <ButtonContainer>
+        <button>
+          I am the Teacher <span>(معلم)</span>
+        </button>
+        <button>
+          I am the Head of park <span>(رئيس الحدائق)</span>
+        </button>
+      </ButtonContainer>
 
-        </Container>
+    </Container>
 
 
-    );
+  );
 };
 
 const Container = styled.div`
@@ -71,6 +71,7 @@ const Container = styled.div`
     width: 25rem;
     margin-left: 1.5rem;
     color: #ececec;
+    hyphens:auto;
   }
 `;
 

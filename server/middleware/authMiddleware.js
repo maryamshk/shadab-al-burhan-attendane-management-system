@@ -29,16 +29,19 @@ const checkUser = (req, res, next) => {
         jwt.verify(token, 'Attendance', async (err, decodedToken) => {
             if (err) {
                 res.locals.user = null;
+                res.locals.role = null;
                 next();
             } else {
                 let user = await User.findById(decodedToken.id);
                 // making accessible in view
                 res.locals.user = user;
+                res.locals.role = user.role;
                 next();
             }
         });
     } else {
         res.locals.user = null;
+        res.locals.role = null;
         next();
     }
 };
